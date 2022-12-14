@@ -6,12 +6,14 @@ import MainDescription from "./components/MainDescription/MainDescription";
 import SecondDescription from "./components/SecondDescription/SecondDescription";
 import MainButton from "./components/MainButton/MainButton";
 import MemeForm from "./components/MemeForm/MemeForm";
+import Login from "./components/Login/Login";
 
 function App() {
     return (
         <div>
+            <NavigationBar/>
             <div className="firstScreen">
-                <NavigationBar/>
+
                 <div  className="landingScreen">
                     <div className="landingScreenText">
                         <MainTitle title="Partajarea de meme-uri nu a fost niciodată mai simplă!"></MainTitle>
@@ -35,14 +37,14 @@ amuzați de câte materii o să pice semestrul asta."></MainDescription>
                     </div>
                 </div>
             </div>
-            {/*<div className="mostViewedSection">*/}
-            {/*    <SecondTitle title="Most Viewed"></SecondTitle>*/}
-            {/*    <div className="mostViewedMemes">*/}
-            {/*        <img src="meme1.png" />*/}
-            {/*        <img src="meme2.png" />*/}
-            {/*        <img src="meme3.png" />*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="mostViewedSection">
+                <SecondTitle title="Most Viewed"></SecondTitle>
+                <div className="mostViewedMemes">
+                    <img src="meme1.png" />
+                    <img src="meme2.png" />
+                    <img src="meme3.png" />
+                </div>
+            </div>
             <footer>
                 <div className="icons">
                     <a href="https://www.instagram.com/lsacbucuresti/" target="_blank"><img src="instagram.svg" width="25" height="25"/></a>

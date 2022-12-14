@@ -1,6 +1,11 @@
 @import "colors";
 @import "fonts";
 
+
+header {
+  position: sticky;
+  top:0;
+}
 .firstScreen {
   height: 100vh;
 
@@ -16,6 +21,12 @@
     padding: 50px;
     justify-content: center;
     align-items: center;
+  }
+  .landingScreenIlustration {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
   }
 }
 
