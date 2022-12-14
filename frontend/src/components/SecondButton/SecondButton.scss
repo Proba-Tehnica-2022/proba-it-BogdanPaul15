@@ -1,0 +1,16 @@
+@import "../../assets/colors";
+@import "../../assets/fonts";
+
+.secondButton {
+  display: block;
+  text-decoration: none;
+  padding: 10px 40px 10px 40px;
+  background-color: $purple;
+  border-radius: 5px;
+  font-family: 'Merriweather-700';
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: $white;
+}
+

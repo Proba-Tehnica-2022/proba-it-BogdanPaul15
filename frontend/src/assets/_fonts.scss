@@ -1,0 +1,29 @@
+/* Merriweather font-faces */
+
+@font-face {
+  font-family: "Merriweather-900";
+  src: local("Merriweather-Black"),
+  url("../fonts/Merriweather-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Merriweather-700";
+  src: local("Merriweather-Bold"),
+  url("../fonts/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Merriweather-300";
+  src: local("Merriweather-Light"),
+  url("../fonts/Merriweather-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+/* Roboto font-faces */
+
+@font-face {
+  font-family: "Roboto-300";
+  src: local("Roboto-Light"),
+  url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+}

@@ -1,0 +1,37 @@
+@import "../../assets/colors";
+@import "../../assets/fonts";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  top:0px;
+  width: 100%;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 30px 30px 30px;
+  background-color: $white;
+  .navBarLinks ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    li:nth-child(1) {
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Roboto-300";
+      font-size: 20px;
+      line-height: 25px;
+      color: $footer_dark-blue;
+    }
+  }
+}

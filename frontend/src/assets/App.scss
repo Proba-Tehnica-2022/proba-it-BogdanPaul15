@@ -1,0 +1,81 @@
+@import "colors";
+@import "fonts";
+
+.firstScreen {
+  height: 100vh;
+
+}
+.landingScreen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .landingScreenText {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.formSection {
+  background-color: $purple;
+  padding: 250px 110px 250px 110px;
+  .cardFormSection {
+    display: flex;
+    flex-direction: row;
+    background: $white;
+    box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.5);
+    border-radius: 21px;
+    padding: 50px;
+  }
+}
+
+.cardFormSectionText {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 40px;
+}
+
+.cardFormSectionForm {
+  width: 55%;
+  padding: 40px;
+}
+
+.secondTitleForm p{
+  text-align: left;
+}
+.mostViewedSection {
+  padding: 50px 50px 0px 50px;
+  .mostViewedMemes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    img {
+      padding: 20px
+    }
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $footer_dark-blue;
+  padding: 50px;
+  img {
+    margin: 5px;
+  }
+  p {
+    font-family: 'Merriweather-300';
+    font-size: 20px;
+    line-height: 121.1%;
+    text-align: center;
+    color: $white;
+  }
+}

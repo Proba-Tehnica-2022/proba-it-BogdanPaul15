@@ -1,0 +1,11 @@
+@import "../../assets/colors";
+@import "../../assets/fonts";
+
+.first {
+  font-family: 'Roboto-300';
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: $dark-blue;
+  padding: 30px;
+}

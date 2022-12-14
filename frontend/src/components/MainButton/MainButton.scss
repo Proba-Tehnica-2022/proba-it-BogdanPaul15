@@ -1,0 +1,16 @@
+@import "../../assets/colors";
+@import "../../assets/fonts";
+
+.button {
+  display: block;
+  text-decoration: none;
+  padding: 20px 50px 20px 50px;
+  background-color: $purple;
+  border-radius: 5px;
+  font-family: 'Merriweather-700';
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: $white;
+}
+
